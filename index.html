@@ -6,39 +6,40 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="contenedor">
-    <div class="calculadora">
-      <div class="display">
-        <input type="text" id="pantalla" disabled >
-      </div>
+    <div class="contenedor">
+        <h1>Javier Jose Choque Quispe</h1>
+        <div class="calculadora">
+            <div class="display">
+                <input type="text" id="pantalla" disabled >
+            </div>
 
-      <div class="botones">
-        <button class="btn-clear" onclick="limpiar()">C</button>
-        <button class="btn-back" onclick="borrar()">&lt;</button>
-        <button onclick="insertar('*')">x</button>
-        <button onclick="insertar('/')">/</button>
+            <div class="botones">
+                <button class="btn-clear" onclick="limpiar()">C</button>
+                <button class="btn-back" onclick="borrar()">&lt;</button>
+                <button onclick="insertar('*')">x</button>
+                <button onclick="insertar('/')">/</button>
 
-        <button onclick="insertar('7')">7</button>
-        <button onclick="insertar('8')">8</button>
-        <button onclick="insertar('9')">9</button>
-        <button onclick="insertar('-')">-</button>
+                <button onclick="insertar('7')">7</button>
+                <button onclick="insertar('8')">8</button>
+                <button onclick="insertar('9')">9</button>
+                <button onclick="insertar('-')">-</button>
 
-        <button onclick="insertar('4')">4</button>
-        <button onclick="insertar('5')">5</button>
-        <button onclick="insertar('6')">6</button>
-        <button onclick="insertar('+')">+</button>
+                <button onclick="insertar('4')">4</button>
+                <button onclick="insertar('5')">5</button>
+                <button onclick="insertar('6')">6</button>
+                <button onclick="insertar('+')">+</button>
 
-        <button onclick="insertar('1')">1</button>
-        <button onclick="insertar('2')">2</button>
-        <button onclick="insertar('3')">3</button>
-        <button class="btn-eq" onclick="calcular()" style="grid-row: span 2;">=</button>
+                <button onclick="insertar('1')">1</button>
+                <button onclick="insertar('2')">2</button>
+                <button onclick="insertar('3')">3</button>
+                <button class="btn-eq" onclick="calcular()" style="grid-row: span 2;">=</button>
 
-        <button onclick="insertar('0')" style="grid-column: span 2;">0</button>
-        <button onclick="insertar('.')">.</button>
-      </div>
+                <button onclick="insertar('0')" style="grid-column: span 2;">0</button>
+                <button onclick="insertar('.')">.</button>
+            </div>
+        </div>
     </div>
-  </div>
 
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
